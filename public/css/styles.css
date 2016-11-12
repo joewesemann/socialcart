@@ -83,6 +83,10 @@ justify-content: center;
     border-right: 2px solid #a9a9a9;
 }
 
+img.corner-logo {
+    width: 100%;
+}
+
 nav {
     color: #fff;
     background-color: #0f2557;
