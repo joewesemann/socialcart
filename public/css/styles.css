@@ -83,6 +83,16 @@ justify-content: center;
     border-right: 2px solid #a9a9a9;
 }
 
+.sidebar-fixed i{
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 32px 0 0;
+    width: 24px;
+    color: rgba(0,0,0,0.54);}
+
+
+
 img.corner-logo {
     width: 100%;
 }
