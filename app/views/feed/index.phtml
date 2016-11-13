@@ -7,17 +7,38 @@
 
     <body>
       <div class="row full-height">
-        <div class="sidebar-fixed col s0 m3 l2 hide-on-small-only z-depth-2">
-          <div class="nav-wrapper">
-            <!--<ul class="side-nav">-->
-            <ul>
-              <li><a class="waves-effect waves-teal btn-flat btn-large" href="/profile">profile</a></li>
-              <li><a class="waves-effect waves-teal btn-flat btn-large" href="/pantry">pantry</a></li>
-              <li><a class="waves-effect waves-teal btn-flat btn-large" href="/feed">feed</a></li>
-              <li><a class="waves-effect waves-teal btn-flat btn-large" href="/search">search</a></li>
-            </ul>
-          </div>
-        </div>
+    <!-- landscape fixed nav -->
+    <div class="sidebar-fixed col s0 m3 l2 hide-on-small-only z-depth-2">
+      <div class="nav-wrapper">
+        <ul>
+          <li><img class="corner-logo" src="img/socialcart-lockup.png"></li>
+          <li>
+            <a class="waves-effect waves-teal btn-flat" href="/profile">
+              <i class="material-icons">perm_identity</i>
+              profile
+            </a>
+          </li>
+          <li>
+            <a class="waves-effect waves-teal btn-flat" href="/pantry">
+              <i class="material-icons">shopping_cart</i>
+              pantry
+            </a>
+          </li>
+          <li>
+            <a class="waves-effect waves-teal btn-flat" href="/feed">
+              <i class="material-icons">dashboard</i>
+              feed
+            </a>
+          </li>
+          <li>
+            <a class="waves-effect waves-teal btn-flat" href="/search">
+              <i class="material-icons">search</i>
+              search
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
         <div class="page-content col s12 m9 l10">
           
           <nav class="half-nav row">
@@ -92,7 +113,7 @@
               </div>        
             </div>
             <div class="fixed-action-btn">
-              <a class="btn-floating btn-large teal" href="#!">
+              <a class="btn-floating btn-large teal z-depth-4" href="#!">
                 <i class="large material-icons">add</i>
               </a>
               <!--<ul>
