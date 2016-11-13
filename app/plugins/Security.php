@@ -94,7 +94,7 @@ class Security  extends Plugin {
                 /* stay on the login page  */
                 $dispatcher->forward(
                     array(
-                        'controller' => 'login',
+                        'controller' => 'feed',
                         'action'     => 'index'
                     )
                 );
