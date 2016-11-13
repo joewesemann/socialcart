@@ -7,7 +7,10 @@ class IndexController extends Controller
 
     public function indexAction()
     {
-        $this->view->setVar("data", "kill me");
+        $this->dispatcher->forward([
+            'controller' => 'feed',
+            'action' => 'index'
+        ]);
     }
 
 }
