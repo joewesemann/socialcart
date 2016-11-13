@@ -43,6 +43,7 @@ justify-content: center;
     background-color: #0F2557;
 }
 .sign-page .title{text-align:right; float: right;}
+
 .sign-window{background-color:#fff; border-radius:5px;}
 
 .logo {
@@ -51,6 +52,7 @@ justify-content: center;
     width: 5.5rem !important;
 }
 .row{width:100%;}
+
 .container > .row:last-child {
     margin-bottom: 45px;
 }
@@ -59,7 +61,8 @@ justify-content: center;
     margin-top: 30px;
     margin-right: 0px;
     margin: 30px 0px 10px 0px;
-    }
+}
+
 .header-img img{ width:100%; }
 
 .page-content .half-nav{padding-right:0px !important}
@@ -70,6 +73,8 @@ justify-content: center;
     height: 100%;
 }
 
+/*sidebar stuff*/
+
 .corner-logo {
     width: 170px;
 }
@@ -77,10 +82,39 @@ justify-content: center;
     width: 100px;
 }
 
-.sidebar-fixed{    
+.sidebar-fixed {
     height: 100%;
     background-color: #fff;
     border-right: 2px solid #a9a9a9;
+    padding: 0px !important;
+}
+
+.sidebar-fixed i{
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 32px 0 0;
+    width: 24px;
+    color: rgba(0,0,0,0.54);\
+}
+
+.sidebar-fixed a {
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 16px;
+    margin: 10px 15px;
+}
+
+.sidebar-fixed .btn-flat{
+    text-align:center;
+}
+
+img.corner-logo {
+    width: 100%;
 }
 
 nav {
@@ -88,8 +122,3 @@ nav {
     background-color: #0f2557;
 }
 
-/*
-@media screen and (orientation:portrait) and (max-width:600px){
-.hide-on-small{display:none;}
-
-}*/
