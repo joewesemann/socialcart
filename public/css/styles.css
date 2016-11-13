@@ -70,6 +70,8 @@ justify-content: center;
     height: 100%;
 }
 
+/*sidebar stuff*/
+
 .corner-logo {
     width: 170px;
 }
@@ -83,6 +85,27 @@ justify-content: center;
     border-right: 2px solid #a9a9a9;
 }
 
+.sidebar-fixed i{
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 32px 0 0;
+    width: 24px;
+    color: rgba(0,0,0,0.54);\
+}
+
+
+.sidebar-fixed a {
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
+
 img.corner-logo {
     width: 100%;
 }
@@ -92,8 +115,3 @@ nav {
     background-color: #0f2557;
 }
 
-/*
-@media screen and (orientation:portrait) and (max-width:600px){
-.hide-on-small{display:none;}
-
-}*/
